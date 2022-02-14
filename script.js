@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
           if (newDiv.textContent % 2 == 0 || newDiv.textContent % 2 == 1) {
             childTwo.remove();
-          } else if (newDiv == null){
+          } else{
             alert("No more boxes");
           }
         });
